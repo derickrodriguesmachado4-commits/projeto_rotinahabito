@@ -1,0 +1,1 @@
+INSERT INTO Usuario VALUES (1,'admin', '','admin@email.com','12345',0,0,0);
