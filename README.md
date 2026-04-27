@@ -315,9 +315,9 @@ Previsão: Sprint 2.
 
 Interfaces finais ainda em desenvolvimento.
 
-## Aplicativo Mobile
+## Versão PC
 
-Versão mobile será desenvolvida após conclusão da versão web.
+Versão de computador será desenvolvida durante a versão mobile na próxima etapa.
 
 ---
 
