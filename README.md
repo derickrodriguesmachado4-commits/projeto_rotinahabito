@@ -209,7 +209,7 @@ Desenvolver um sistema web/mobile chamado Life Mind, capaz de auxiliar usuários
 | Protótipos | xx/xx a xx/xx |
 | Implementação | 25/05 a 10/06 |
 | Testes | 11/06 a 21/06 |
-
+| Preencher repositorio com dados que faltam | 25/05 a 21/06 |
 ## Sprints
 
 | Sprint | Entregas |
