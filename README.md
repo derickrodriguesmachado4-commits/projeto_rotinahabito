@@ -207,8 +207,8 @@ Desenvolver um sistema web/mobile chamado Life Mind, capaz de auxiliar usuários
 |------|---------|
 | Levantamento de requisitos | xx/xx a xx/xx |
 | Protótipos | xx/xx a xx/xx |
-| Implementação | xx/xx a xx/xx |
-| Testes | xx/xx a xx/xx |
+| Implementação | 25/05 a 10/06 |
+| Testes | 11/06 a 21/06 |
 
 ## Sprints
 
