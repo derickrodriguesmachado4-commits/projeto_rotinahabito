@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lifemind</title>
+</head>
+<body>
+    <form method="POST" action="/tarefa/editar" style="display: flex;flex-direction: column;">
+        <label> Título
+            <input name="titulo" value="{{context['tarefa'].data['titulo']}}"/>
+        </label>
+        <label> Descrição
+            <textarea name="conteudo" value="{{context['tarefa'].data['conteudo']}}"></textarea>
+        </label>
+
+        <div style="display: flex;">
+            <input name="datetime" type="datetime-local" value="{{context['tarefa'].data['datetime'].strftime('%Y-%m-%dT%H:%M')}}" />
+        </div>
+
+        <input type="hidden" value="{{ context['tarefa'].data['codigo'] }}" />
+
+        <button style="width: 5%;" type="submit">Criar Tarefa</button>
+    </form>
+
+    {% for mensagem in context["mensagem"] %}
+
+        <p
+        {% if context['status'] == "SUCESSO" %}
+        style="background-color: green;"
+        {% else %}
+        style="background-color: red;"
+        {% endif %}
+        >{{mensagem}}</p>
+
+    {% endfor %}
+</body>
+</html>

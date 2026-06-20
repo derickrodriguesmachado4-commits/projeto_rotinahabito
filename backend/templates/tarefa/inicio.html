@@ -1,0 +1,39 @@
+{% from 'partials/lista_tarefas.html' import render_tarefas %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lifemind</title>
+</head>
+<body>
+    <header style="display: flex; align-items: center;">
+        <a href="/agenda/{{ context['data'].strftime('%Y-%m-%d') }}">AGENDA</a>
+        <h1>{{context["data"].strftime('%Y-%m-%d')}}</h1>
+    </header>
+
+    <h1>Eventos de Hoje</h1>
+
+    {% if context["eventos"] != [] %}
+        <table border="1" style="border-collapse: collapse;">
+            <tr>
+                <th>titulo</th>
+            </tr>
+            {% for evento in context["eventos"] %}
+                <tr>
+                    <th>{{evento.data["titulo"]}}</th>
+                </tr>
+            {% endfor %}
+        </table>
+    {% else %}
+        <h2>Nenhum evento</h2>
+    {% endif %}
+
+    {{ render_tarefas(context["tarefas_pendentes"], "Nenhuma tarefa pendente", titulo="Tarefas Pendentes",form=True) }}
+
+    {{ render_tarefas(context["tarefas_feitas"], "Nenhuma tarefa feita", titulo="Tarefas Feitas",form=True) }}
+
+    <a href="/tarefa/form_criar/{{ context['data'].strftime('%Y-%m-%d') }}">CRIAR TAREFA</a>
+</body>
+</html>
