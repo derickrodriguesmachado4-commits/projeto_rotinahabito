@@ -1,0 +1,20 @@
+{% from 'partials/lista_tarefas.html' import render_tarefas %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lifemind</title>
+</head>
+<body>
+    <h1>TELA DA AGENDA</h1>
+    
+    {% include 'partials/agenda/input_date.html' %}
+
+    {% include 'partials/agenda/calendario.html' %}
+
+    {{render_tarefas(context["tarefas"],"Nenhuma tarefa para esse mês",titulo="Tarefas do Mês")}}
+
+</body>
+</html>
