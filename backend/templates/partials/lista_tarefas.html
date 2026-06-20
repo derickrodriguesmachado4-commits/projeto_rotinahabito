@@ -1,0 +1,18 @@
+{% from 'partials/tarefa_card.html' import tarefa_card %}
+
+{% macro render_tarefas(tarefas,mensagem_vazio,titulo=False,form=False,status=True) %}
+
+    {% if titulo %}
+    <h1>{{titulo}}</h1>
+    {% endif %}
+
+    {% if tarefas == [] %}
+        <p>{{mensagem_vazio}}</p>
+
+    {% else %}
+        {% for tarefa in tarefas %}
+            {{ tarefa_card(tarefa,form=form,status=status) }}
+        {% endfor %}
+    {% endif %}
+
+{% endmacro %}
