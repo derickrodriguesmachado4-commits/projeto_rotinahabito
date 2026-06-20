@@ -1,0 +1,23 @@
+<table>
+        <tr>
+            <th>D</th>
+            <th>S</th>
+            <th>T</th>
+            <th>Q</th>
+            <th>Q</th>
+            <th>S</th>
+            <th>S</th>
+        </tr>
+
+        {% for semana in context["calendario"] %}
+            <tr>
+            {% for dia in semana %}
+                <td>
+                    {% if dia != 0 %}
+                        <a href="/tarefa/inicio/{{context['data'].year}}-{{context['data'].month}}-{{dia}}">{{ dia }}</a>
+                    {% endif %}
+                </td>
+            {% endfor %}
+            </tr>
+        {% endfor %}
+    </table>

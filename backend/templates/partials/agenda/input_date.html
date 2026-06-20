@@ -1,0 +1,24 @@
+<div style="display: flex; align-items: center; gap: 5px;">
+        <a 
+            href="/agenda/{{context['data'].year-1}}-{{context['data'].month}}-{{context['data'].day}}"> < </a>
+        <p>{{context["data"].year}}</p>
+        <a href="/agenda/{{context['data'].year+1}}-{{context['data'].month}}-{{context['data'].day}}"> > </a>
+    </div>
+
+    <div style="display: flex;align-items: center; gap: 5px;">
+        <a 
+        {% if context['mes'] == 1 %}
+            href="/agenda/{{context['data'].year-1}}-12-{{context['data'].day}}"
+        {% else %}
+            href="/agenda/{{context['data'].year}}-{{context['data'].month-1}}-{{context['data'].day}}"
+        {% endif %}> < </a>
+        <p>{{context["data"].month}}</p>
+        <a 
+        {% if context['mes'] == 12 %}
+            href="/agenda/{{context['data'].year+1}}-1-{{context['data'].day}}"
+        {% else %}
+            href="/agenda/{{context['data'].year}}-{{context['data'].month+1}}-{{context['data'].day}}"
+        {% endif %}>
+        >
+        </a>
+    </div>
