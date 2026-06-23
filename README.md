@@ -12,6 +12,7 @@
 - Arthur Lívio
 - Giorgio Leandro
 - Ernandes da Silva Cutrim
+- Moisés(Desistiu)
 
 ## Disciplina
 
@@ -118,9 +119,9 @@ Desenvolver um sistema web/mobile chamado Life Mind, capaz de auxiliar usuários
 |----|------|------------|--------|
 | 1 | Criar tela de login | Alta | Em andamento |
 | 2 | Criar cadastro de usuário | Alta | Em andamento |
-| 3 | Criar função de adicionar tarefa | Alta | Pendente |
-| 4 | Listar tarefas na tela | Média | Pendente |
-| 5 | Marcar tarefa como concluída | Alta | Pendente |
+| 3 | Criar função de adicionar tarefa | Alta | Concluída |
+| 4 | Listar tarefas na tela | Média | Concluída|
+| 5 | Marcar tarefa como concluída | Alta | Concluída |
 | 6 | Sistema de metas e nível | Média | Pendente |
 | 7 | Tela de motivação | Média | Pendente |
 | 8 | Mostrar progresso | Média | Pendente |
