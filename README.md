@@ -310,4 +310,4 @@ Boa parte do backlog não foi Implementado no projeto final (login, mensagem de 
 
 # 14. JUSTIFICATIVA A AUSENCIA DE CERTOS DADOS:
 
-Não auxiliamos nosso tempo e compromisso com o projeto, o que prejudicou o andamento dele ao todo, também como outras avaliações e projetos acabaram atrapalhando em nosso foco.
+Não auxiliamos nosso tempo e compromisso com o projeto, também pelas altas dificuldades em compreender certas atividades específicas. Não só isso, mas como outras avaliações e projetos acabaram atrapalhando em nosso foco.
