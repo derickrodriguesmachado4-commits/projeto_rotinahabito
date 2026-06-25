@@ -1,4 +1,4 @@
-6# Lifemind
+# Lifemind
 
 > Sistema digital voltado para organização pessoal, bem-estar mental e produtividade diária.
 
@@ -208,7 +208,7 @@ Desenvolver um sistema web/mobile chamado Life Mind, capaz de auxiliar usuários
 |------|---------|
 | Levantamento de requisitos | xx/xx a xx/xx |
 | Protótipos | xx/xx a xx/xx |
-| Implementação | 25/05 a 10/06 |
+| Implementação | 25/05 a 26/06 |
 | Testes | 11/06 a 25/06 |
 | Preencher repositorio com dados que faltam | 25/05 a 25/06 |
 ## Sprints
@@ -227,7 +227,7 @@ Desenvolver um sistema web/mobile chamado Life Mind, capaz de auxiliar usuários
 
 - Entrega 1: documentação inicial  
 - Entrega 2: protótipos  
-- Entrega 3: implementação parcial  
+- Entrega 3: implementação parcial 
 
 ---
 
@@ -256,24 +256,18 @@ O banco armazenará usuários, tarefas, níveis, metas, mensagens motivacionais 
 
 ## Backend
 
-API para autenticação, cadastro, gerenciamento de tarefas, pontuação e estatísticas.
+API para gerenciamento de tarefas, qual são armazenadas em um arquivo de banco de dados.
 
 ## Frontend
 
-Interfaces responsivas para login, dashboard, tarefas, motivação e perfil.
+Interfaces responsivas e criativas para as telas de tarefa.
 
 ## Funcionalidades Concluídas
 
-- Login  
-- Cadastro  
-- Consulta de tarefas  
-
+- Consulta de tarefas
+- Criação, edição e exclusão de tarefas
 ## Funcionalidades em Desenvolvimento
 
-- Relatórios  
-- Painel administrativo  
-- Sistema de níveis  
-- Estatísticas completas  
 
 ---
 
@@ -307,27 +301,13 @@ Interfaces responsivas para login, dashboard, tarefas, motivação e perfil.
 
 # 13. Itens Ainda Não Produzidos
 
-## Diagrama de Classes
+## Implementações não finalizadas
 
-Ainda não elaborado, pois a modelagem orientada a objetos está em andamento.  
-Previsão: Sprint 2.
+Boa parte do backlog não foi Implementado no projeto final (login, mensagem de motivação, perfil, estatísticas...)
 
-## Front-end Completo
-
-Interfaces finais ainda em desenvolvimento.
-
-## Versão PC
-
-Versão de computador será desenvolvida durante a versão mobile na próxima etapa.
 
 ---
 
 # 14. JUSTIFICATIVA A AUSENCIA DE CERTOS DADOS:
 
-Acabamos não auxiliando muito bem o compromisso com o trabalho, então não fizemos algo muito além nesta etapa do que foi apresentado anteriormente, que também está presente em releases desse repositorio (protótipos, histórias de usuário,etc...).
-
-
-Também como outras avaliações acabaram atrapalhando nosso foco entre si.
-
-No entanto, iremos entregar na próxima sprint tudo o que falta.
-
+Não auxiliamos nosso tempo e compromisso com o projeto, o que prejudicou o andamento dele ao todo, também como outras avaliações e projetos acabaram atrapalhando em nosso foco.
