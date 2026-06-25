@@ -55,7 +55,7 @@ Desenvolver um sistema web/mobile chamado Life Mind, capaz de auxiliar usuários
 | Back-end | Flask |
 | Banco de Dados | MySQL |
 | Prototipação | Figma |
-| Gestão | Trello |
+| Gestão | Whatsapp/Trello |
 
 ---
 
