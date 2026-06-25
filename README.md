@@ -215,9 +215,9 @@ Desenvolver um sistema web/mobile chamado Life Mind, capaz de auxiliar usuários
 
 | Sprint | Entregas |
 |-------|----------|
-| Sprint 1 | Login + Cadastro + Banco |
-| Sprint 2 | Dashboard + Tarefas |
-| Sprint 3 | Relatórios + Motivação |
+| Sprint 1 | Documentação Inicial |
+| Sprint 2 | Primeiros Prototipos |
+| Sprint 3 | Implementação parcial|
 
 ## Gestão das Tarefas
 
