@@ -1,4 +1,4 @@
-# Lifemind
+6# Lifemind
 
 > Sistema digital voltado para organização pessoal, bem-estar mental e produtividade diária.
 
@@ -117,8 +117,8 @@ Desenvolver um sistema web/mobile chamado Life Mind, capaz de auxiliar usuários
 
 | ID | Item | Prioridade | Status |
 |----|------|------------|--------|
-| 1 | Criar tela de login | Alta | Em andamento |
-| 2 | Criar cadastro de usuário | Alta | Em andamento |
+| 1 | Criar tela de login | Alta | Pendente |
+| 2 | Criar cadastro de usuário | Pendente | Em andamento |
 | 3 | Criar função de adicionar tarefa | Alta | Concluída |
 | 4 | Listar tarefas na tela | Média | Concluída|
 | 5 | Marcar tarefa como concluída | Alta | Concluída |
@@ -209,8 +209,8 @@ Desenvolver um sistema web/mobile chamado Life Mind, capaz de auxiliar usuários
 | Levantamento de requisitos | xx/xx a xx/xx |
 | Protótipos | xx/xx a xx/xx |
 | Implementação | 25/05 a 10/06 |
-| Testes | 11/06 a 21/06 |
-| Preencher repositorio com dados que faltam | 25/05 a 21/06 |
+| Testes | 11/06 a 25/06 |
+| Preencher repositorio com dados que faltam | 25/05 a 25/06 |
 ## Sprints
 
 | Sprint | Entregas |
