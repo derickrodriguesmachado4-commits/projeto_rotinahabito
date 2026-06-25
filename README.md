@@ -12,7 +12,7 @@
 - Arthur Lívio
 - Giorgio Leandro
 - Ernandes da Silva Cutrim
-- Moisés(Desistiu)
+- Moisés (Desistiu)
 
 ## Disciplina
 
